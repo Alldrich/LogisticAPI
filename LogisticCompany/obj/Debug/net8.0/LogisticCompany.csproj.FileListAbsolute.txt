@@ -111,9 +111,6 @@ E:\RiderProjects\LogisticCompany\LogisticCompany\bin\Debug\net8.0\LogisticCompan
 E:\RiderProjects\LogisticCompany\LogisticCompany\bin\Debug\net8.0\LogisticCompany.dll
 E:\RiderProjects\LogisticCompany\LogisticCompany\bin\Debug\net8.0\LogisticCompany.pdb
 E:\RiderProjects\LogisticCompany\LogisticCompany\bin\Debug\net8.0\Carter.dll
-E:\RiderProjects\LogisticCompany\LogisticCompany\bin\Debug\net8.0\DotSwashbuckle.AspNetCore.Swagger.dll
-E:\RiderProjects\LogisticCompany\LogisticCompany\bin\Debug\net8.0\DotSwashbuckle.AspNetCore.SwaggerGen.dll
-E:\RiderProjects\LogisticCompany\LogisticCompany\bin\Debug\net8.0\DotSwashbuckle.AspNetCore.SwaggerUI.dll
 E:\RiderProjects\LogisticCompany\LogisticCompany\bin\Debug\net8.0\FluentValidation.dll
 E:\RiderProjects\LogisticCompany\LogisticCompany\bin\Debug\net8.0\Humanizer.dll
 E:\RiderProjects\LogisticCompany\LogisticCompany\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
@@ -216,3 +213,7 @@ E:\RiderProjects\LogisticCompany\LogisticCompany\bin\Debug\net8.0\Microsoft.AspN
 E:\RiderProjects\LogisticCompany\LogisticCompany\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
 E:\RiderProjects\LogisticCompany\LogisticCompany\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
 E:\RiderProjects\LogisticCompany\LogisticCompany\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+E:\RiderProjects\LogisticCompany\LogisticCompany\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\RiderProjects\LogisticCompany\LogisticCompany\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\RiderProjects\LogisticCompany\LogisticCompany\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\RiderProjects\LogisticCompany\LogisticCompany\obj\Debug\net8.0\LogisticCompany.sourcelink.json
