@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "net8.0": {
-      "Carter/8.0.0": {
+      "Carter/8.1.0": {
         "type": "package",
         "dependencies": {
           "FluentValidation": "11.8.0",
@@ -16,69 +16,6 @@
         "runtime": {
           "lib/net8.0/Carter.dll": {
             "related": ".pdb"
-          }
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
-      },
-      "DotSwashbuckle.AspNetCore/3.0.9": {
-        "type": "package",
-        "dependencies": {
-          "DotSwashbuckle.AspNetCore.Swagger": "3.0.9",
-          "DotSwashbuckle.AspNetCore.SwaggerGen": "3.0.9",
-          "DotSwashbuckle.AspNetCore.SwaggerUI": "3.0.9",
-          "Microsoft.Extensions.ApiDescription.Server": "8.0.1"
-        },
-        "build": {
-          "build/DotSwashbuckle.AspNetCore.props": {}
-        }
-      },
-      "DotSwashbuckle.AspNetCore.Swagger/3.0.9": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.OpenApi": "1.6.14"
-        },
-        "compile": {
-          "lib/net8.0/DotSwashbuckle.AspNetCore.Swagger.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/DotSwashbuckle.AspNetCore.Swagger.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
-      },
-      "DotSwashbuckle.AspNetCore.SwaggerGen/3.0.9": {
-        "type": "package",
-        "dependencies": {
-          "DotSwashbuckle.AspNetCore.Swagger": "3.0.9"
-        },
-        "compile": {
-          "lib/net8.0/DotSwashbuckle.AspNetCore.SwaggerGen.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/DotSwashbuckle.AspNetCore.SwaggerGen.dll": {
-            "related": ".pdb;.xml"
-          }
-        }
-      },
-      "DotSwashbuckle.AspNetCore.SwaggerUI/3.0.9": {
-        "type": "package",
-        "compile": {
-          "lib/net8.0/DotSwashbuckle.AspNetCore.SwaggerUI.dll": {
-            "related": ".pdb;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/DotSwashbuckle.AspNetCore.SwaggerUI.dll": {
-            "related": ".pdb;.xml"
           }
         },
         "frameworkReferences": [
@@ -111,7 +48,7 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Cryptography.Internal/8.0.4": {
+      "Microsoft.AspNetCore.Cryptography.Internal/8.0.5": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.AspNetCore.Cryptography.Internal.dll": {
@@ -124,10 +61,10 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Cryptography.KeyDerivation/8.0.4": {
+      "Microsoft.AspNetCore.Cryptography.KeyDerivation/8.0.5": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Cryptography.Internal": "8.0.4"
+          "Microsoft.AspNetCore.Cryptography.Internal": "8.0.5"
         },
         "compile": {
           "lib/net8.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll": {
@@ -140,11 +77,11 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Identity.EntityFrameworkCore/8.0.4": {
+      "Microsoft.AspNetCore.Identity.EntityFrameworkCore/8.0.5": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Relational": "8.0.4",
-          "Microsoft.Extensions.Identity.Stores": "8.0.4"
+          "Microsoft.EntityFrameworkCore.Relational": "8.0.5",
+          "Microsoft.Extensions.Identity.Stores": "8.0.5"
         },
         "compile": {
           "lib/net8.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll": {
@@ -157,7 +94,7 @@
           }
         }
       },
-      "Microsoft.AspNetCore.OpenApi/8.0.4": {
+      "Microsoft.AspNetCore.OpenApi/8.0.5": {
         "type": "package",
         "dependencies": {
           "Microsoft.OpenApi": "1.4.3"
@@ -435,11 +372,11 @@
           }
         }
       },
-      "Microsoft.EntityFrameworkCore/8.0.4": {
+      "Microsoft.EntityFrameworkCore/8.0.5": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Abstractions": "8.0.4",
-          "Microsoft.EntityFrameworkCore.Analyzers": "8.0.4",
+          "Microsoft.EntityFrameworkCore.Abstractions": "8.0.5",
+          "Microsoft.EntityFrameworkCore.Analyzers": "8.0.5",
           "Microsoft.Extensions.Caching.Memory": "8.0.0",
           "Microsoft.Extensions.Logging": "8.0.0"
         },
@@ -457,7 +394,7 @@
           "buildTransitive/net8.0/Microsoft.EntityFrameworkCore.props": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Abstractions/8.0.4": {
+      "Microsoft.EntityFrameworkCore.Abstractions/8.0.5": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {
@@ -470,7 +407,7 @@
           }
         }
       },
-      "Microsoft.EntityFrameworkCore.Analyzers/8.0.4": {
+      "Microsoft.EntityFrameworkCore.Analyzers/8.0.5": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/_._": {}
@@ -479,12 +416,12 @@
           "lib/netstandard2.0/_._": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Design/8.0.4": {
+      "Microsoft.EntityFrameworkCore.Design/8.0.5": {
         "type": "package",
         "dependencies": {
           "Humanizer.Core": "2.14.1",
           "Microsoft.CodeAnalysis.CSharp.Workspaces": "4.5.0",
-          "Microsoft.EntityFrameworkCore.Relational": "8.0.4",
+          "Microsoft.EntityFrameworkCore.Relational": "8.0.5",
           "Microsoft.Extensions.DependencyModel": "8.0.0",
           "Mono.TextTemplating": "2.2.1"
         },
@@ -502,10 +439,10 @@
           "build/net8.0/Microsoft.EntityFrameworkCore.Design.props": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Relational/8.0.4": {
+      "Microsoft.EntityFrameworkCore.Relational/8.0.5": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "8.0.4",
+          "Microsoft.EntityFrameworkCore": "8.0.5",
           "Microsoft.Extensions.Configuration.Abstractions": "8.0.0"
         },
         "compile": {
@@ -519,10 +456,10 @@
           }
         }
       },
-      "Microsoft.EntityFrameworkCore.Tools/8.0.4": {
+      "Microsoft.EntityFrameworkCore.Tools/8.0.5": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Design": "8.0.4"
+          "Microsoft.EntityFrameworkCore.Design": "8.0.5"
         },
         "compile": {
           "lib/net8.0/_._": {}
@@ -531,7 +468,7 @@
           "lib/net8.0/_._": {}
         }
       },
-      "Microsoft.Extensions.ApiDescription.Server/8.0.1": {
+      "Microsoft.Extensions.ApiDescription.Server/6.0.5": {
         "type": "package",
         "build": {
           "build/Microsoft.Extensions.ApiDescription.Server.props": {},
@@ -658,10 +595,10 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Identity.Core/8.0.4": {
+      "Microsoft.Extensions.Identity.Core/8.0.5": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Cryptography.KeyDerivation": "8.0.4",
+          "Microsoft.AspNetCore.Cryptography.KeyDerivation": "8.0.5",
           "Microsoft.Extensions.Logging": "8.0.0",
           "Microsoft.Extensions.Options": "8.0.2"
         },
@@ -676,11 +613,11 @@
           }
         }
       },
-      "Microsoft.Extensions.Identity.Stores/8.0.4": {
+      "Microsoft.Extensions.Identity.Stores/8.0.5": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Caching.Abstractions": "8.0.0",
-          "Microsoft.Extensions.Identity.Core": "8.0.4",
+          "Microsoft.Extensions.Identity.Core": "8.0.5",
           "Microsoft.Extensions.Logging": "8.0.0"
         },
         "compile": {
@@ -795,7 +732,7 @@
           "lib/netstandard2.0/Mono.TextTemplating.dll": {}
         }
       },
-      "Npgsql/8.0.2": {
+      "Npgsql/8.0.3": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Logging.Abstractions": "8.0.0"
@@ -811,13 +748,13 @@
           }
         }
       },
-      "Npgsql.EntityFrameworkCore.PostgreSQL/8.0.2": {
+      "Npgsql.EntityFrameworkCore.PostgreSQL/8.0.4": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "8.0.2",
-          "Microsoft.EntityFrameworkCore.Abstractions": "8.0.2",
-          "Microsoft.EntityFrameworkCore.Relational": "8.0.2",
-          "Npgsql": "8.0.2"
+          "Microsoft.EntityFrameworkCore": "8.0.4",
+          "Microsoft.EntityFrameworkCore.Abstractions": "8.0.4",
+          "Microsoft.EntityFrameworkCore.Relational": "8.0.4",
+          "Npgsql": "8.0.3"
         },
         "compile": {
           "lib/net8.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll": {
@@ -829,6 +766,69 @@
             "related": ".xml"
           }
         }
+      },
+      "Swashbuckle.AspNetCore/6.6.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.ApiDescription.Server": "6.0.5",
+          "Swashbuckle.AspNetCore.Swagger": "6.6.1",
+          "Swashbuckle.AspNetCore.SwaggerGen": "6.6.1",
+          "Swashbuckle.AspNetCore.SwaggerUI": "6.6.1"
+        },
+        "build": {
+          "build/Swashbuckle.AspNetCore.props": {}
+        }
+      },
+      "Swashbuckle.AspNetCore.Swagger/6.6.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.OpenApi": "1.6.14"
+        },
+        "compile": {
+          "lib/net8.0/Swashbuckle.AspNetCore.Swagger.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Swashbuckle.AspNetCore.Swagger.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "Swashbuckle.AspNetCore.SwaggerGen/6.6.1": {
+        "type": "package",
+        "dependencies": {
+          "Swashbuckle.AspNetCore.Swagger": "6.6.1"
+        },
+        "compile": {
+          "lib/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Swashbuckle.AspNetCore.SwaggerUI/6.6.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "System.CodeDom/4.4.0": {
         "type": "package",
@@ -1100,76 +1100,18 @@
     }
   },
   "libraries": {
-    "Carter/8.0.0": {
-      "sha512": "kENQQJqJeX0w8X4ohMUViPsx+YOjcWd5IGLS308w5cuygpJdlPPtgY+PSXItvMVzYCCe0ohBr3bcvnKhg1fJzg==",
+    "Carter/8.1.0": {
+      "sha512": "/fCVe54KxiTin+yGOIQ9wb4f57Y1bbTOp4zDDIYsm+lcHqDTC6ogQgKfjujEFT6PRXwbwX48o+9Gr5H7xpE5Cg==",
       "type": "package",
-      "path": "carter/8.0.0",
+      "path": "carter/8.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "carter.8.0.0.nupkg.sha512",
+        "carter.8.1.0.nupkg.sha512",
         "carter.nuspec",
         "carterlogo.png",
         "lib/net8.0/Carter.dll",
         "lib/net8.0/Carter.pdb"
-      ]
-    },
-    "DotSwashbuckle.AspNetCore/3.0.9": {
-      "sha512": "wNZR+DRRLnmF0DqIG+wB51TEUdgNJbeu4bqSrTqO6irldI3L1t1tGVxjfNND3SdQJJ8b7gNih87tCDkBBqp7+Q==",
-      "type": "package",
-      "path": "dotswashbuckle.aspnetcore/3.0.9",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "build/DotSwashbuckle.AspNetCore.props",
-        "dotswashbuckle.aspnetcore.3.0.9.nupkg.sha512",
-        "dotswashbuckle.aspnetcore.nuspec",
-        "icon.png"
-      ]
-    },
-    "DotSwashbuckle.AspNetCore.Swagger/3.0.9": {
-      "sha512": "lS1QtywNlt1og4I2CHrGYQZ/pU6aARFY2NTIZstriPUxt/4kDeTIImOH0NYs3wUhRs2KtQA+gtLR8Jfl/FtfxQ==",
-      "type": "package",
-      "path": "dotswashbuckle.aspnetcore.swagger/3.0.9",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "dotswashbuckle.aspnetcore.swagger.3.0.9.nupkg.sha512",
-        "dotswashbuckle.aspnetcore.swagger.nuspec",
-        "icon.png",
-        "lib/net8.0/DotSwashbuckle.AspNetCore.Swagger.dll",
-        "lib/net8.0/DotSwashbuckle.AspNetCore.Swagger.pdb",
-        "lib/net8.0/DotSwashbuckle.AspNetCore.Swagger.xml"
-      ]
-    },
-    "DotSwashbuckle.AspNetCore.SwaggerGen/3.0.9": {
-      "sha512": "AyDyDL34iowXnIVVVvP2FwOTxqdcdzDGpspitXyIkkckjChzu+uSvuPyS6aVRSC5d44OZ46w9Gy8eAMAdUgGiQ==",
-      "type": "package",
-      "path": "dotswashbuckle.aspnetcore.swaggergen/3.0.9",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "dotswashbuckle.aspnetcore.swaggergen.3.0.9.nupkg.sha512",
-        "dotswashbuckle.aspnetcore.swaggergen.nuspec",
-        "icon.png",
-        "lib/net8.0/DotSwashbuckle.AspNetCore.SwaggerGen.dll",
-        "lib/net8.0/DotSwashbuckle.AspNetCore.SwaggerGen.pdb",
-        "lib/net8.0/DotSwashbuckle.AspNetCore.SwaggerGen.xml"
-      ]
-    },
-    "DotSwashbuckle.AspNetCore.SwaggerUI/3.0.9": {
-      "sha512": "lSu09YXOZs32tTy1+hwazju6TX+ch7oQoEbVd6P3kJrMXy1sRqTwKMaY5koyzDfgYqAb7oYfz73TNF2Qo0LKVA==",
-      "type": "package",
-      "path": "dotswashbuckle.aspnetcore.swaggerui/3.0.9",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "dotswashbuckle.aspnetcore.swaggerui.3.0.9.nupkg.sha512",
-        "dotswashbuckle.aspnetcore.swaggerui.nuspec",
-        "icon.png",
-        "lib/net8.0/DotSwashbuckle.AspNetCore.SwaggerUI.dll",
-        "lib/net8.0/DotSwashbuckle.AspNetCore.SwaggerUI.pdb",
-        "lib/net8.0/DotSwashbuckle.AspNetCore.SwaggerUI.xml"
       ]
     },
     "FluentValidation/11.8.0": {
@@ -1213,10 +1155,10 @@
         "logo.png"
       ]
     },
-    "Microsoft.AspNetCore.Cryptography.Internal/8.0.4": {
-      "sha512": "W9pteGr3myODvbXWqicrh3xAGe1R1oNMnFp5M8w51ncgdiOIn6/OhMfHwC2yzn6Jj6JfM4Fq3S/Hpxhu6+dkVA==",
+    "Microsoft.AspNetCore.Cryptography.Internal/8.0.5": {
+      "sha512": "bu8jQbBpKuqubTsGSTR/mosNw2bNg7NRmgOpPgHiWIiHnYHvyuJWVjgGxKzhkztw53z9aAgiOHbgAm7SsKJihQ==",
       "type": "package",
-      "path": "microsoft.aspnetcore.cryptography.internal/8.0.4",
+      "path": "microsoft.aspnetcore.cryptography.internal/8.0.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1228,14 +1170,14 @@
         "lib/net8.0/Microsoft.AspNetCore.Cryptography.Internal.xml",
         "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.Internal.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.Internal.xml",
-        "microsoft.aspnetcore.cryptography.internal.8.0.4.nupkg.sha512",
+        "microsoft.aspnetcore.cryptography.internal.8.0.5.nupkg.sha512",
         "microsoft.aspnetcore.cryptography.internal.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Cryptography.KeyDerivation/8.0.4": {
-      "sha512": "acKwXsBSs8UIaP8k1MLsp2S8k0c6fHgOyO9ptXTZVsf8RKS+po5UNXex0+qsrLRpz7Bey87s017hY/IOE0A+LA==",
+    "Microsoft.AspNetCore.Cryptography.KeyDerivation/8.0.5": {
+      "sha512": "VQL44/kuHkyQtHKAxNklV9xn/7AYQwVT7aAUHD0JpkhsPp/93VmVOoM6llmllzs2u7USW0dG18o//JOBdZfhow==",
       "type": "package",
-      "path": "microsoft.aspnetcore.cryptography.keyderivation/8.0.4",
+      "path": "microsoft.aspnetcore.cryptography.keyderivation/8.0.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1247,14 +1189,14 @@
         "lib/net8.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.xml",
         "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.xml",
-        "microsoft.aspnetcore.cryptography.keyderivation.8.0.4.nupkg.sha512",
+        "microsoft.aspnetcore.cryptography.keyderivation.8.0.5.nupkg.sha512",
         "microsoft.aspnetcore.cryptography.keyderivation.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Identity.EntityFrameworkCore/8.0.4": {
-      "sha512": "NHjxQxfDclr3jJ8EuPajtVjZnpNWzyfUEPJ4kmCaVZJeQGV8R4HwNcUGvv4d1fJdb9oA1memPOsEQhlcwu8UPA==",
+    "Microsoft.AspNetCore.Identity.EntityFrameworkCore/8.0.5": {
+      "sha512": "p3didtXm9oj3ThPtsM6ePyD7A+fD2DUMPpD3d9XfbiVd8S7Ugiynb7Xa7XjN9zih07PPhkdt9s1NmpYWoBgUlA==",
       "type": "package",
-      "path": "microsoft.aspnetcore.identity.entityframeworkcore/8.0.4",
+      "path": "microsoft.aspnetcore.identity.entityframeworkcore/8.0.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1262,14 +1204,14 @@
         "THIRD-PARTY-NOTICES.TXT",
         "lib/net8.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll",
         "lib/net8.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.xml",
-        "microsoft.aspnetcore.identity.entityframeworkcore.8.0.4.nupkg.sha512",
+        "microsoft.aspnetcore.identity.entityframeworkcore.8.0.5.nupkg.sha512",
         "microsoft.aspnetcore.identity.entityframeworkcore.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.OpenApi/8.0.4": {
-      "sha512": "TFiXbP0tqRgJKcpiCSSp79q6QaiF8gqRhZgrU48FQajhVkiwHSp1O1b1hkYC4Ehl4clbk3pHwdfwN9mRtDAFbQ==",
+    "Microsoft.AspNetCore.OpenApi/8.0.5": {
+      "sha512": "5DKqBOVuGkX6EQsA34MmzVo7UX/6HASveBObPe+E8GKDm391PvxDvgufhhywnbGvEl7DXUqfwdNr7l0efwlssQ==",
       "type": "package",
-      "path": "microsoft.aspnetcore.openapi/8.0.4",
+      "path": "microsoft.aspnetcore.openapi/8.0.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1277,7 +1219,7 @@
         "THIRD-PARTY-NOTICES.TXT",
         "lib/net8.0/Microsoft.AspNetCore.OpenApi.dll",
         "lib/net8.0/Microsoft.AspNetCore.OpenApi.xml",
-        "microsoft.aspnetcore.openapi.8.0.4.nupkg.sha512",
+        "microsoft.aspnetcore.openapi.8.0.5.nupkg.sha512",
         "microsoft.aspnetcore.openapi.nuspec"
       ]
     },
@@ -1733,10 +1675,10 @@
         "microsoft.codeanalysis.workspaces.common.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore/8.0.4": {
-      "sha512": "/kyu9pXuxQvhg8RO/oN5Q5Og7cDIVvZtrt1z48rX7Yido+zEGkUkp3/Bjd9u45N2uuPPF8mn2pKDlAewCvv3/Q==",
+    "Microsoft.EntityFrameworkCore/8.0.5": {
+      "sha512": "sqpDZgfzmTPXy/jCekqTaPDwqRDjtdGmIL+eqFfXtVAoH4AanWjeyxQ1ej3uVnTQO6f23+m9+ggJDVcgyPJxcA==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore/8.0.4",
+      "path": "microsoft.entityframeworkcore/8.0.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1745,14 +1687,14 @@
         "buildTransitive/net8.0/Microsoft.EntityFrameworkCore.props",
         "lib/net8.0/Microsoft.EntityFrameworkCore.dll",
         "lib/net8.0/Microsoft.EntityFrameworkCore.xml",
-        "microsoft.entityframeworkcore.8.0.4.nupkg.sha512",
+        "microsoft.entityframeworkcore.8.0.5.nupkg.sha512",
         "microsoft.entityframeworkcore.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Abstractions/8.0.4": {
-      "sha512": "S50pjtPNOvRktacaO6UAhvGCPMT56wxqEq8fQfcjaSUySPGba6mKWo6ackw6DdeAR1cA6U+U0uj27warA2KtJA==",
+    "Microsoft.EntityFrameworkCore.Abstractions/8.0.5": {
+      "sha512": "qwYdfjFKtmTXX8NIm0MuZxUkon1tcw+aF5huzR7YOVr/tR3s4fqw9DWcvc23l3Jhpo/uGHWZcNPyFlI2CD3Usg==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.abstractions/8.0.4",
+      "path": "microsoft.entityframeworkcore.abstractions/8.0.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1760,14 +1702,14 @@
         "PACKAGE.md",
         "lib/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll",
         "lib/net8.0/Microsoft.EntityFrameworkCore.Abstractions.xml",
-        "microsoft.entityframeworkcore.abstractions.8.0.4.nupkg.sha512",
+        "microsoft.entityframeworkcore.abstractions.8.0.5.nupkg.sha512",
         "microsoft.entityframeworkcore.abstractions.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Analyzers/8.0.4": {
-      "sha512": "P8hfMZECdbgle4Us8HGRUKAjqVwgbtr5JqtCxqEoiVORrNQAmcpu3g1NKwTAoUsO9Z0QRgExtYoAmdggR/DkMQ==",
+    "Microsoft.EntityFrameworkCore.Analyzers/8.0.5": {
+      "sha512": "LzoKedC+9A8inF5d3iIzgyv/JDXgKrtpYoGIC3EqGWuHVDm9s/IHHApeTOTbzvnr7yBVV+nmYfyT1nwtzRDp0Q==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.analyzers/8.0.4",
+      "path": "microsoft.entityframeworkcore.analyzers/8.0.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1775,14 +1717,14 @@
         "analyzers/dotnet/cs/Microsoft.EntityFrameworkCore.Analyzers.dll",
         "docs/PACKAGE.md",
         "lib/netstandard2.0/_._",
-        "microsoft.entityframeworkcore.analyzers.8.0.4.nupkg.sha512",
+        "microsoft.entityframeworkcore.analyzers.8.0.5.nupkg.sha512",
         "microsoft.entityframeworkcore.analyzers.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Design/8.0.4": {
-      "sha512": "QD5/h3+h4N7GlUaA4bzaYFW9CoeB7ne2KMiDIENIT0GPx+E6up/v9fDA36FAS3NIq9zeKUAQgN8aj6IwE7tMGw==",
+    "Microsoft.EntityFrameworkCore.Design/8.0.5": {
+      "sha512": "HWYnbuMwllSCsZjfKj3Vz+HDGOCyGlTMYjI7tZH5pK7AuiGNHOdshCnWlEFEuDV6oAadWfXGTDmkmV53gwTqSQ==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.design/8.0.4",
+      "path": "microsoft.entityframeworkcore.design/8.0.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1791,14 +1733,14 @@
         "build/net8.0/Microsoft.EntityFrameworkCore.Design.props",
         "lib/net8.0/Microsoft.EntityFrameworkCore.Design.dll",
         "lib/net8.0/Microsoft.EntityFrameworkCore.Design.xml",
-        "microsoft.entityframeworkcore.design.8.0.4.nupkg.sha512",
+        "microsoft.entityframeworkcore.design.8.0.5.nupkg.sha512",
         "microsoft.entityframeworkcore.design.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Relational/8.0.4": {
-      "sha512": "aWLT6e9a8oMzXgF0YQpYYa3mDeU+yb2UQSQ+RrIgyGgSpzPfSKgpA7v2kOVDuZr2AQ6NNAlWPaBG7wZuKQI96w==",
+    "Microsoft.EntityFrameworkCore.Relational/8.0.5": {
+      "sha512": "x2bdSK3eKKEQkDdYcGxxDU+S7NqhBiz/Fciz01Mafz9P71VRdP3JskKHaZvwK0/sNEAT3hS7BTsDQGUA2F9mAA==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.relational/8.0.4",
+      "path": "microsoft.entityframeworkcore.relational/8.0.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1806,14 +1748,14 @@
         "PACKAGE.md",
         "lib/net8.0/Microsoft.EntityFrameworkCore.Relational.dll",
         "lib/net8.0/Microsoft.EntityFrameworkCore.Relational.xml",
-        "microsoft.entityframeworkcore.relational.8.0.4.nupkg.sha512",
+        "microsoft.entityframeworkcore.relational.8.0.5.nupkg.sha512",
         "microsoft.entityframeworkcore.relational.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Tools/8.0.4": {
-      "sha512": "txPWQf+SGx8Aa6Z8FbdQ8zMHckArroaE0AlV6iqnqJp9w46RiOBtkJlkPgohteQS1uhxIwjtHfwFiQATw059fg==",
+    "Microsoft.EntityFrameworkCore.Tools/8.0.5": {
+      "sha512": "ZG5X2uznVmw+Mk0HVv3YHiTaGcCANDmZg81/9GLvE5zU4B11oxuM1+tndkYCFoM9CSN0/+XfB89TVYViKXYiRA==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.tools/8.0.4",
+      "path": "microsoft.entityframeworkcore.tools/8.0.5",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -1821,7 +1763,7 @@
         "Icon.png",
         "docs/PACKAGE.md",
         "lib/net8.0/_._",
-        "microsoft.entityframeworkcore.tools.8.0.4.nupkg.sha512",
+        "microsoft.entityframeworkcore.tools.8.0.5.nupkg.sha512",
         "microsoft.entityframeworkcore.tools.nuspec",
         "tools/EntityFrameworkCore.PS2.psd1",
         "tools/EntityFrameworkCore.PS2.psm1",
@@ -1836,10 +1778,10 @@
         "tools/netcoreapp2.0/any/ef.runtimeconfig.json"
       ]
     },
-    "Microsoft.Extensions.ApiDescription.Server/8.0.1": {
-      "sha512": "N9t6xNcYgjcsg9Lq2EQFwkDvhDJfJ7NJMSh4ZVJqjk5+8iXSdHPBZ0a5ZPff6uxf2/80XqXLo3/BdWX+hzmd/A==",
+    "Microsoft.Extensions.ApiDescription.Server/6.0.5": {
+      "sha512": "Ckb5EDBUNJdFWyajfXzUIMRkhf52fHZOQuuZg/oiu8y7zDCVwD0iHhew6MnThjHmevanpxL3f5ci2TtHQEN6bw==",
       "type": "package",
-      "path": "microsoft.extensions.apidescription.server/8.0.1",
+      "path": "microsoft.extensions.apidescription.server/6.0.5",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -1849,49 +1791,218 @@
         "build/Microsoft.Extensions.ApiDescription.Server.targets",
         "buildMultiTargeting/Microsoft.Extensions.ApiDescription.Server.props",
         "buildMultiTargeting/Microsoft.Extensions.ApiDescription.Server.targets",
-        "microsoft.extensions.apidescription.server.8.0.1.nupkg.sha512",
+        "microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
         "microsoft.extensions.apidescription.server.nuspec",
         "tools/Newtonsoft.Json.dll",
         "tools/dotnet-getdocument.deps.json",
         "tools/dotnet-getdocument.dll",
         "tools/dotnet-getdocument.runtimeconfig.json",
-        "tools/net462-x86/GetDocument.Insider.exe",
-        "tools/net462-x86/GetDocument.Insider.exe.config",
-        "tools/net462-x86/System.Buffers.dll",
-        "tools/net462-x86/System.Diagnostics.DiagnosticSource.dll",
-        "tools/net462-x86/System.Memory.dll",
-        "tools/net462-x86/System.Numerics.Vectors.dll",
-        "tools/net462-x86/System.Runtime.CompilerServices.Unsafe.dll",
-        "tools/net462/GetDocument.Insider.exe",
-        "tools/net462/GetDocument.Insider.exe.config",
-        "tools/net462/System.Buffers.dll",
-        "tools/net462/System.Diagnostics.DiagnosticSource.dll",
-        "tools/net462/System.Memory.dll",
-        "tools/net462/System.Numerics.Vectors.dll",
-        "tools/net462/System.Runtime.CompilerServices.Unsafe.dll",
-        "tools/net8.0/GetDocument.Insider.deps.json",
-        "tools/net8.0/GetDocument.Insider.dll",
-        "tools/net8.0/GetDocument.Insider.exe",
-        "tools/net8.0/GetDocument.Insider.runtimeconfig.json",
-        "tools/net8.0/Microsoft.AspNetCore.Connections.Abstractions.dll",
-        "tools/net8.0/Microsoft.AspNetCore.Connections.Abstractions.xml",
-        "tools/net8.0/Microsoft.AspNetCore.Hosting.Server.Abstractions.dll",
-        "tools/net8.0/Microsoft.AspNetCore.Hosting.Server.Abstractions.xml",
-        "tools/net8.0/Microsoft.AspNetCore.Http.Features.dll",
-        "tools/net8.0/Microsoft.AspNetCore.Http.Features.xml",
-        "tools/net8.0/Microsoft.Extensions.Configuration.Abstractions.dll",
-        "tools/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
-        "tools/net8.0/Microsoft.Extensions.Diagnostics.Abstractions.dll",
-        "tools/net8.0/Microsoft.Extensions.Features.dll",
-        "tools/net8.0/Microsoft.Extensions.Features.xml",
-        "tools/net8.0/Microsoft.Extensions.FileProviders.Abstractions.dll",
-        "tools/net8.0/Microsoft.Extensions.Hosting.Abstractions.dll",
-        "tools/net8.0/Microsoft.Extensions.Logging.Abstractions.dll",
-        "tools/net8.0/Microsoft.Extensions.Options.dll",
-        "tools/net8.0/Microsoft.Extensions.Primitives.dll",
-        "tools/net8.0/Microsoft.Net.Http.Headers.dll",
-        "tools/net8.0/Microsoft.Net.Http.Headers.xml",
-        "tools/net8.0/System.IO.Pipelines.dll",
+        "tools/net461-x86/GetDocument.Insider.exe",
+        "tools/net461-x86/GetDocument.Insider.exe.config",
+        "tools/net461-x86/Microsoft.Win32.Primitives.dll",
+        "tools/net461-x86/System.AppContext.dll",
+        "tools/net461-x86/System.Buffers.dll",
+        "tools/net461-x86/System.Collections.Concurrent.dll",
+        "tools/net461-x86/System.Collections.NonGeneric.dll",
+        "tools/net461-x86/System.Collections.Specialized.dll",
+        "tools/net461-x86/System.Collections.dll",
+        "tools/net461-x86/System.ComponentModel.EventBasedAsync.dll",
+        "tools/net461-x86/System.ComponentModel.Primitives.dll",
+        "tools/net461-x86/System.ComponentModel.TypeConverter.dll",
+        "tools/net461-x86/System.ComponentModel.dll",
+        "tools/net461-x86/System.Console.dll",
+        "tools/net461-x86/System.Data.Common.dll",
+        "tools/net461-x86/System.Diagnostics.Contracts.dll",
+        "tools/net461-x86/System.Diagnostics.Debug.dll",
+        "tools/net461-x86/System.Diagnostics.DiagnosticSource.dll",
+        "tools/net461-x86/System.Diagnostics.FileVersionInfo.dll",
+        "tools/net461-x86/System.Diagnostics.Process.dll",
+        "tools/net461-x86/System.Diagnostics.StackTrace.dll",
+        "tools/net461-x86/System.Diagnostics.TextWriterTraceListener.dll",
+        "tools/net461-x86/System.Diagnostics.Tools.dll",
+        "tools/net461-x86/System.Diagnostics.TraceSource.dll",
+        "tools/net461-x86/System.Diagnostics.Tracing.dll",
+        "tools/net461-x86/System.Drawing.Primitives.dll",
+        "tools/net461-x86/System.Dynamic.Runtime.dll",
+        "tools/net461-x86/System.Globalization.Calendars.dll",
+        "tools/net461-x86/System.Globalization.Extensions.dll",
+        "tools/net461-x86/System.Globalization.dll",
+        "tools/net461-x86/System.IO.Compression.ZipFile.dll",
+        "tools/net461-x86/System.IO.Compression.dll",
+        "tools/net461-x86/System.IO.FileSystem.DriveInfo.dll",
+        "tools/net461-x86/System.IO.FileSystem.Primitives.dll",
+        "tools/net461-x86/System.IO.FileSystem.Watcher.dll",
+        "tools/net461-x86/System.IO.FileSystem.dll",
+        "tools/net461-x86/System.IO.IsolatedStorage.dll",
+        "tools/net461-x86/System.IO.MemoryMappedFiles.dll",
+        "tools/net461-x86/System.IO.Pipes.dll",
+        "tools/net461-x86/System.IO.UnmanagedMemoryStream.dll",
+        "tools/net461-x86/System.IO.dll",
+        "tools/net461-x86/System.Linq.Expressions.dll",
+        "tools/net461-x86/System.Linq.Parallel.dll",
+        "tools/net461-x86/System.Linq.Queryable.dll",
+        "tools/net461-x86/System.Linq.dll",
+        "tools/net461-x86/System.Memory.dll",
+        "tools/net461-x86/System.Net.Http.dll",
+        "tools/net461-x86/System.Net.NameResolution.dll",
+        "tools/net461-x86/System.Net.NetworkInformation.dll",
+        "tools/net461-x86/System.Net.Ping.dll",
+        "tools/net461-x86/System.Net.Primitives.dll",
+        "tools/net461-x86/System.Net.Requests.dll",
+        "tools/net461-x86/System.Net.Security.dll",
+        "tools/net461-x86/System.Net.Sockets.dll",
+        "tools/net461-x86/System.Net.WebHeaderCollection.dll",
+        "tools/net461-x86/System.Net.WebSockets.Client.dll",
+        "tools/net461-x86/System.Net.WebSockets.dll",
+        "tools/net461-x86/System.Numerics.Vectors.dll",
+        "tools/net461-x86/System.ObjectModel.dll",
+        "tools/net461-x86/System.Reflection.Extensions.dll",
+        "tools/net461-x86/System.Reflection.Primitives.dll",
+        "tools/net461-x86/System.Reflection.dll",
+        "tools/net461-x86/System.Resources.Reader.dll",
+        "tools/net461-x86/System.Resources.ResourceManager.dll",
+        "tools/net461-x86/System.Resources.Writer.dll",
+        "tools/net461-x86/System.Runtime.CompilerServices.Unsafe.dll",
+        "tools/net461-x86/System.Runtime.CompilerServices.VisualC.dll",
+        "tools/net461-x86/System.Runtime.Extensions.dll",
+        "tools/net461-x86/System.Runtime.Handles.dll",
+        "tools/net461-x86/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "tools/net461-x86/System.Runtime.InteropServices.dll",
+        "tools/net461-x86/System.Runtime.Numerics.dll",
+        "tools/net461-x86/System.Runtime.Serialization.Formatters.dll",
+        "tools/net461-x86/System.Runtime.Serialization.Json.dll",
+        "tools/net461-x86/System.Runtime.Serialization.Primitives.dll",
+        "tools/net461-x86/System.Runtime.Serialization.Xml.dll",
+        "tools/net461-x86/System.Runtime.dll",
+        "tools/net461-x86/System.Security.Claims.dll",
+        "tools/net461-x86/System.Security.Cryptography.Algorithms.dll",
+        "tools/net461-x86/System.Security.Cryptography.Csp.dll",
+        "tools/net461-x86/System.Security.Cryptography.Encoding.dll",
+        "tools/net461-x86/System.Security.Cryptography.Primitives.dll",
+        "tools/net461-x86/System.Security.Cryptography.X509Certificates.dll",
+        "tools/net461-x86/System.Security.Principal.dll",
+        "tools/net461-x86/System.Security.SecureString.dll",
+        "tools/net461-x86/System.Text.Encoding.Extensions.dll",
+        "tools/net461-x86/System.Text.Encoding.dll",
+        "tools/net461-x86/System.Text.RegularExpressions.dll",
+        "tools/net461-x86/System.Threading.Overlapped.dll",
+        "tools/net461-x86/System.Threading.Tasks.Parallel.dll",
+        "tools/net461-x86/System.Threading.Tasks.dll",
+        "tools/net461-x86/System.Threading.Thread.dll",
+        "tools/net461-x86/System.Threading.ThreadPool.dll",
+        "tools/net461-x86/System.Threading.Timer.dll",
+        "tools/net461-x86/System.Threading.dll",
+        "tools/net461-x86/System.ValueTuple.dll",
+        "tools/net461-x86/System.Xml.ReaderWriter.dll",
+        "tools/net461-x86/System.Xml.XDocument.dll",
+        "tools/net461-x86/System.Xml.XPath.XDocument.dll",
+        "tools/net461-x86/System.Xml.XPath.dll",
+        "tools/net461-x86/System.Xml.XmlDocument.dll",
+        "tools/net461-x86/System.Xml.XmlSerializer.dll",
+        "tools/net461-x86/netstandard.dll",
+        "tools/net461/GetDocument.Insider.exe",
+        "tools/net461/GetDocument.Insider.exe.config",
+        "tools/net461/Microsoft.Win32.Primitives.dll",
+        "tools/net461/System.AppContext.dll",
+        "tools/net461/System.Buffers.dll",
+        "tools/net461/System.Collections.Concurrent.dll",
+        "tools/net461/System.Collections.NonGeneric.dll",
+        "tools/net461/System.Collections.Specialized.dll",
+        "tools/net461/System.Collections.dll",
+        "tools/net461/System.ComponentModel.EventBasedAsync.dll",
+        "tools/net461/System.ComponentModel.Primitives.dll",
+        "tools/net461/System.ComponentModel.TypeConverter.dll",
+        "tools/net461/System.ComponentModel.dll",
+        "tools/net461/System.Console.dll",
+        "tools/net461/System.Data.Common.dll",
+        "tools/net461/System.Diagnostics.Contracts.dll",
+        "tools/net461/System.Diagnostics.Debug.dll",
+        "tools/net461/System.Diagnostics.DiagnosticSource.dll",
+        "tools/net461/System.Diagnostics.FileVersionInfo.dll",
+        "tools/net461/System.Diagnostics.Process.dll",
+        "tools/net461/System.Diagnostics.StackTrace.dll",
+        "tools/net461/System.Diagnostics.TextWriterTraceListener.dll",
+        "tools/net461/System.Diagnostics.Tools.dll",
+        "tools/net461/System.Diagnostics.TraceSource.dll",
+        "tools/net461/System.Diagnostics.Tracing.dll",
+        "tools/net461/System.Drawing.Primitives.dll",
+        "tools/net461/System.Dynamic.Runtime.dll",
+        "tools/net461/System.Globalization.Calendars.dll",
+        "tools/net461/System.Globalization.Extensions.dll",
+        "tools/net461/System.Globalization.dll",
+        "tools/net461/System.IO.Compression.ZipFile.dll",
+        "tools/net461/System.IO.Compression.dll",
+        "tools/net461/System.IO.FileSystem.DriveInfo.dll",
+        "tools/net461/System.IO.FileSystem.Primitives.dll",
+        "tools/net461/System.IO.FileSystem.Watcher.dll",
+        "tools/net461/System.IO.FileSystem.dll",
+        "tools/net461/System.IO.IsolatedStorage.dll",
+        "tools/net461/System.IO.MemoryMappedFiles.dll",
+        "tools/net461/System.IO.Pipes.dll",
+        "tools/net461/System.IO.UnmanagedMemoryStream.dll",
+        "tools/net461/System.IO.dll",
+        "tools/net461/System.Linq.Expressions.dll",
+        "tools/net461/System.Linq.Parallel.dll",
+        "tools/net461/System.Linq.Queryable.dll",
+        "tools/net461/System.Linq.dll",
+        "tools/net461/System.Memory.dll",
+        "tools/net461/System.Net.Http.dll",
+        "tools/net461/System.Net.NameResolution.dll",
+        "tools/net461/System.Net.NetworkInformation.dll",
+        "tools/net461/System.Net.Ping.dll",
+        "tools/net461/System.Net.Primitives.dll",
+        "tools/net461/System.Net.Requests.dll",
+        "tools/net461/System.Net.Security.dll",
+        "tools/net461/System.Net.Sockets.dll",
+        "tools/net461/System.Net.WebHeaderCollection.dll",
+        "tools/net461/System.Net.WebSockets.Client.dll",
+        "tools/net461/System.Net.WebSockets.dll",
+        "tools/net461/System.Numerics.Vectors.dll",
+        "tools/net461/System.ObjectModel.dll",
+        "tools/net461/System.Reflection.Extensions.dll",
+        "tools/net461/System.Reflection.Primitives.dll",
+        "tools/net461/System.Reflection.dll",
+        "tools/net461/System.Resources.Reader.dll",
+        "tools/net461/System.Resources.ResourceManager.dll",
+        "tools/net461/System.Resources.Writer.dll",
+        "tools/net461/System.Runtime.CompilerServices.Unsafe.dll",
+        "tools/net461/System.Runtime.CompilerServices.VisualC.dll",
+        "tools/net461/System.Runtime.Extensions.dll",
+        "tools/net461/System.Runtime.Handles.dll",
+        "tools/net461/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "tools/net461/System.Runtime.InteropServices.dll",
+        "tools/net461/System.Runtime.Numerics.dll",
+        "tools/net461/System.Runtime.Serialization.Formatters.dll",
+        "tools/net461/System.Runtime.Serialization.Json.dll",
+        "tools/net461/System.Runtime.Serialization.Primitives.dll",
+        "tools/net461/System.Runtime.Serialization.Xml.dll",
+        "tools/net461/System.Runtime.dll",
+        "tools/net461/System.Security.Claims.dll",
+        "tools/net461/System.Security.Cryptography.Algorithms.dll",
+        "tools/net461/System.Security.Cryptography.Csp.dll",
+        "tools/net461/System.Security.Cryptography.Encoding.dll",
+        "tools/net461/System.Security.Cryptography.Primitives.dll",
+        "tools/net461/System.Security.Cryptography.X509Certificates.dll",
+        "tools/net461/System.Security.Principal.dll",
+        "tools/net461/System.Security.SecureString.dll",
+        "tools/net461/System.Text.Encoding.Extensions.dll",
+        "tools/net461/System.Text.Encoding.dll",
+        "tools/net461/System.Text.RegularExpressions.dll",
+        "tools/net461/System.Threading.Overlapped.dll",
+        "tools/net461/System.Threading.Tasks.Parallel.dll",
+        "tools/net461/System.Threading.Tasks.dll",
+        "tools/net461/System.Threading.Thread.dll",
+        "tools/net461/System.Threading.ThreadPool.dll",
+        "tools/net461/System.Threading.Timer.dll",
+        "tools/net461/System.Threading.dll",
+        "tools/net461/System.ValueTuple.dll",
+        "tools/net461/System.Xml.ReaderWriter.dll",
+        "tools/net461/System.Xml.XDocument.dll",
+        "tools/net461/System.Xml.XPath.XDocument.dll",
+        "tools/net461/System.Xml.XPath.dll",
+        "tools/net461/System.Xml.XmlDocument.dll",
+        "tools/net461/System.Xml.XmlSerializer.dll",
+        "tools/net461/netstandard.dll",
         "tools/netcoreapp2.1/GetDocument.Insider.deps.json",
         "tools/netcoreapp2.1/GetDocument.Insider.dll",
         "tools/netcoreapp2.1/GetDocument.Insider.runtimeconfig.json",
@@ -2082,10 +2193,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.Extensions.Identity.Core/8.0.4": {
-      "sha512": "YC5ou4FBKDGrAvKOBoPG9QjbAkRifDaZ4JJAoWz4V8fG9Ks3AzIMnKNffIJs5KX5q7wIyK0MrQRYgRxFfCGmwQ==",
+    "Microsoft.Extensions.Identity.Core/8.0.5": {
+      "sha512": "zl/dTogiyBA2D1NBgEQfJRq/5M7aHWU8qp5l6rq4U+hKFcDdd9YDeDaEEtiuYxTpfXn2VoxZten2MljK0kLNiA==",
       "type": "package",
-      "path": "microsoft.extensions.identity.core/8.0.4",
+      "path": "microsoft.extensions.identity.core/8.0.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2097,14 +2208,14 @@
         "lib/net8.0/Microsoft.Extensions.Identity.Core.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Identity.Core.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Identity.Core.xml",
-        "microsoft.extensions.identity.core.8.0.4.nupkg.sha512",
+        "microsoft.extensions.identity.core.8.0.5.nupkg.sha512",
         "microsoft.extensions.identity.core.nuspec"
       ]
     },
-    "Microsoft.Extensions.Identity.Stores/8.0.4": {
-      "sha512": "VDYlqOYTG6AwSJ9zJCDH05FM8ZxFhfgeyy054EL85lzXiBaezp2ImV6fReALH3NEN66S6kq9GhOlirzdmdQwaw==",
+    "Microsoft.Extensions.Identity.Stores/8.0.5": {
+      "sha512": "R6OeFrKxq3kAP/r7Uz5By8QUKnvS7ah/ubM/xbSRfGoyftCTzn4Gd9CZMW+9G67tHR3UX+sZXcjDacD7CFG9Bg==",
       "type": "package",
-      "path": "microsoft.extensions.identity.stores/8.0.4",
+      "path": "microsoft.extensions.identity.stores/8.0.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2116,7 +2227,7 @@
         "lib/net8.0/Microsoft.Extensions.Identity.Stores.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Identity.Stores.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Identity.Stores.xml",
-        "microsoft.extensions.identity.stores.8.0.4.nupkg.sha512",
+        "microsoft.extensions.identity.stores.8.0.5.nupkg.sha512",
         "microsoft.extensions.identity.stores.nuspec"
       ]
     },
@@ -2330,10 +2441,10 @@
         "mono.texttemplating.nuspec"
       ]
     },
-    "Npgsql/8.0.2": {
-      "sha512": "MuJzLoWCaQhQAR3oh66YR0Ir6mxuezncGX3f8wxvAc21g0+9HICktJQlqMoODhxztZKXE5k9GxRxqUAN+vPb4g==",
+    "Npgsql/8.0.3": {
+      "sha512": "6WEmzsQJCZAlUG1pThKg/RmeF6V+I0DmBBBE/8YzpRtEzhyZzKcK7ulMANDm5CkxrALBEC8H+5plxHWtIL7xnA==",
       "type": "package",
-      "path": "npgsql/8.0.2",
+      "path": "npgsql/8.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2348,24 +2459,126 @@
         "lib/netstandard2.0/Npgsql.xml",
         "lib/netstandard2.1/Npgsql.dll",
         "lib/netstandard2.1/Npgsql.xml",
-        "npgsql.8.0.2.nupkg.sha512",
+        "npgsql.8.0.3.nupkg.sha512",
         "npgsql.nuspec",
         "postgresql.png"
       ]
     },
-    "Npgsql.EntityFrameworkCore.PostgreSQL/8.0.2": {
-      "sha512": "eoZPynwkZTWFTgnocvXORuCL2yFZtscrUdqVhjxiRULpC7BMg9zhLM5oDZAU5PoX1PgN77hmkKE4a3PQiHqh7Q==",
+    "Npgsql.EntityFrameworkCore.PostgreSQL/8.0.4": {
+      "sha512": "/hHd9MqTRVDgIpsToCcxMDxZqla0HAQACiITkq1+L9J2hmHKV6lBAPlauF+dlNSfHpus7rrljWx4nAanKD6qAw==",
       "type": "package",
-      "path": "npgsql.entityframeworkcore.postgresql/8.0.2",
+      "path": "npgsql.entityframeworkcore.postgresql/8.0.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "README.md",
         "lib/net8.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll",
         "lib/net8.0/Npgsql.EntityFrameworkCore.PostgreSQL.xml",
-        "npgsql.entityframeworkcore.postgresql.8.0.2.nupkg.sha512",
+        "npgsql.entityframeworkcore.postgresql.8.0.4.nupkg.sha512",
         "npgsql.entityframeworkcore.postgresql.nuspec",
         "postgresql.png"
+      ]
+    },
+    "Swashbuckle.AspNetCore/6.6.1": {
+      "sha512": "4mEIj8bEM2ChCioX6Yx4KjcFZwQuTzWYvjyzeavk0DMhP7bzx787aDCQFyMK9JMAcOnhri0mfrxRItpD6j4dcQ==",
+      "type": "package",
+      "path": "swashbuckle.aspnetcore/6.6.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Swashbuckle.AspNetCore.props",
+        "swashbuckle.aspnetcore.6.6.1.nupkg.sha512",
+        "swashbuckle.aspnetcore.nuspec"
+      ]
+    },
+    "Swashbuckle.AspNetCore.Swagger/6.6.1": {
+      "sha512": "99WcGbaHfLu26sPfWVqJvxXTmQaLE2qdCfceGwT0397X2kcuyD/nuegN2cLw6pQverijXks5LbV8vcA0xi0sSg==",
+      "type": "package",
+      "path": "swashbuckle.aspnetcore.swagger/6.6.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net5.0/Swashbuckle.AspNetCore.Swagger.dll",
+        "lib/net5.0/Swashbuckle.AspNetCore.Swagger.pdb",
+        "lib/net5.0/Swashbuckle.AspNetCore.Swagger.xml",
+        "lib/net6.0/Swashbuckle.AspNetCore.Swagger.dll",
+        "lib/net6.0/Swashbuckle.AspNetCore.Swagger.pdb",
+        "lib/net6.0/Swashbuckle.AspNetCore.Swagger.xml",
+        "lib/net7.0/Swashbuckle.AspNetCore.Swagger.dll",
+        "lib/net7.0/Swashbuckle.AspNetCore.Swagger.pdb",
+        "lib/net7.0/Swashbuckle.AspNetCore.Swagger.xml",
+        "lib/net8.0/Swashbuckle.AspNetCore.Swagger.dll",
+        "lib/net8.0/Swashbuckle.AspNetCore.Swagger.pdb",
+        "lib/net8.0/Swashbuckle.AspNetCore.Swagger.xml",
+        "lib/netcoreapp3.0/Swashbuckle.AspNetCore.Swagger.dll",
+        "lib/netcoreapp3.0/Swashbuckle.AspNetCore.Swagger.pdb",
+        "lib/netcoreapp3.0/Swashbuckle.AspNetCore.Swagger.xml",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.Swagger.dll",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.Swagger.pdb",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.Swagger.xml",
+        "package-readme.md",
+        "swashbuckle.aspnetcore.swagger.6.6.1.nupkg.sha512",
+        "swashbuckle.aspnetcore.swagger.nuspec"
+      ]
+    },
+    "Swashbuckle.AspNetCore.SwaggerGen/6.6.1": {
+      "sha512": "Bw+cAg6EGSsbnT7aV13QXgd5pabDYH/GLNhlzB4Dq64IPEHaX2T51mVZ6yf8/aNHlS7vi31PH6qlWbfhaWqiqw==",
+      "type": "package",
+      "path": "swashbuckle.aspnetcore.swaggergen/6.6.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net5.0/Swashbuckle.AspNetCore.SwaggerGen.dll",
+        "lib/net5.0/Swashbuckle.AspNetCore.SwaggerGen.pdb",
+        "lib/net5.0/Swashbuckle.AspNetCore.SwaggerGen.xml",
+        "lib/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll",
+        "lib/net6.0/Swashbuckle.AspNetCore.SwaggerGen.pdb",
+        "lib/net6.0/Swashbuckle.AspNetCore.SwaggerGen.xml",
+        "lib/net7.0/Swashbuckle.AspNetCore.SwaggerGen.dll",
+        "lib/net7.0/Swashbuckle.AspNetCore.SwaggerGen.pdb",
+        "lib/net7.0/Swashbuckle.AspNetCore.SwaggerGen.xml",
+        "lib/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll",
+        "lib/net8.0/Swashbuckle.AspNetCore.SwaggerGen.pdb",
+        "lib/net8.0/Swashbuckle.AspNetCore.SwaggerGen.xml",
+        "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerGen.dll",
+        "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerGen.pdb",
+        "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerGen.xml",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerGen.dll",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerGen.pdb",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerGen.xml",
+        "package-readme.md",
+        "swashbuckle.aspnetcore.swaggergen.6.6.1.nupkg.sha512",
+        "swashbuckle.aspnetcore.swaggergen.nuspec"
+      ]
+    },
+    "Swashbuckle.AspNetCore.SwaggerUI/6.6.1": {
+      "sha512": "a+nN88DS6OuzaPqwFox8nvEuvsrJFXW4NgzeRBUdGqLbUb1yTcIkuzUS3gbzPXC8HQ+NmbydeMRFudnNX2NKag==",
+      "type": "package",
+      "path": "swashbuckle.aspnetcore.swaggerui/6.6.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net5.0/Swashbuckle.AspNetCore.SwaggerUI.dll",
+        "lib/net5.0/Swashbuckle.AspNetCore.SwaggerUI.pdb",
+        "lib/net5.0/Swashbuckle.AspNetCore.SwaggerUI.xml",
+        "lib/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll",
+        "lib/net6.0/Swashbuckle.AspNetCore.SwaggerUI.pdb",
+        "lib/net6.0/Swashbuckle.AspNetCore.SwaggerUI.xml",
+        "lib/net7.0/Swashbuckle.AspNetCore.SwaggerUI.dll",
+        "lib/net7.0/Swashbuckle.AspNetCore.SwaggerUI.pdb",
+        "lib/net7.0/Swashbuckle.AspNetCore.SwaggerUI.xml",
+        "lib/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll",
+        "lib/net8.0/Swashbuckle.AspNetCore.SwaggerUI.pdb",
+        "lib/net8.0/Swashbuckle.AspNetCore.SwaggerUI.xml",
+        "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerUI.dll",
+        "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerUI.pdb",
+        "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerUI.xml",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerUI.dll",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerUI.pdb",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerUI.xml",
+        "package-readme.md",
+        "swashbuckle.aspnetcore.swaggerui.6.6.1.nupkg.sha512",
+        "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
     },
     "System.CodeDom/4.4.0": {
@@ -2794,20 +3007,20 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "Carter >= 8.0.0",
-      "DotSwashbuckle.AspNetCore >= 3.0.9",
-      "DotSwashbuckle.AspNetCore.Swagger >= 3.0.9",
-      "DotSwashbuckle.AspNetCore.SwaggerGen >= 3.0.9",
-      "DotSwashbuckle.AspNetCore.SwaggerUI >= 3.0.9",
-      "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 8.0.4",
-      "Microsoft.AspNetCore.OpenApi >= 8.0.4",
-      "Microsoft.EntityFrameworkCore >= 8.0.4",
-      "Microsoft.EntityFrameworkCore.Abstractions >= 8.0.4",
-      "Microsoft.EntityFrameworkCore.Analyzers >= 8.0.4",
-      "Microsoft.EntityFrameworkCore.Design >= 8.0.4",
-      "Microsoft.EntityFrameworkCore.Relational >= 8.0.4",
-      "Microsoft.EntityFrameworkCore.Tools >= 8.0.4",
-      "Npgsql.EntityFrameworkCore.PostgreSQL >= 8.0.2"
+      "Carter >= 8.1.0",
+      "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 8.0.5",
+      "Microsoft.AspNetCore.OpenApi >= 8.0.5",
+      "Microsoft.EntityFrameworkCore >= 8.0.5",
+      "Microsoft.EntityFrameworkCore.Abstractions >= 8.0.5",
+      "Microsoft.EntityFrameworkCore.Analyzers >= 8.0.5",
+      "Microsoft.EntityFrameworkCore.Design >= 8.0.5",
+      "Microsoft.EntityFrameworkCore.Relational >= 8.0.5",
+      "Microsoft.EntityFrameworkCore.Tools >= 8.0.5",
+      "Npgsql.EntityFrameworkCore.PostgreSQL >= 8.0.4",
+      "Swashbuckle.AspNetCore >= 6.6.1",
+      "Swashbuckle.AspNetCore.Swagger >= 6.6.1",
+      "Swashbuckle.AspNetCore.SwaggerGen >= 6.6.1",
+      "Swashbuckle.AspNetCore.SwaggerUI >= 6.6.1"
     ]
   },
   "packageFolders": {
@@ -2856,63 +3069,63 @@
         "dependencies": {
           "Carter": {
             "target": "Package",
-            "version": "[8.0.0, )"
-          },
-          "DotSwashbuckle.AspNetCore": {
-            "target": "Package",
-            "version": "[3.0.9, )"
-          },
-          "DotSwashbuckle.AspNetCore.Swagger": {
-            "target": "Package",
-            "version": "[3.0.9, )"
-          },
-          "DotSwashbuckle.AspNetCore.SwaggerGen": {
-            "target": "Package",
-            "version": "[3.0.9, )"
-          },
-          "DotSwashbuckle.AspNetCore.SwaggerUI": {
-            "target": "Package",
-            "version": "[3.0.9, )"
+            "version": "[8.1.0, )"
           },
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
             "target": "Package",
-            "version": "[8.0.4, )"
+            "version": "[8.0.5, )"
           },
           "Microsoft.AspNetCore.OpenApi": {
             "target": "Package",
-            "version": "[8.0.4, )"
+            "version": "[8.0.5, )"
           },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
-            "version": "[8.0.4, )"
+            "version": "[8.0.5, )"
           },
           "Microsoft.EntityFrameworkCore.Abstractions": {
             "target": "Package",
-            "version": "[8.0.4, )"
+            "version": "[8.0.5, )"
           },
           "Microsoft.EntityFrameworkCore.Analyzers": {
             "target": "Package",
-            "version": "[8.0.4, )"
+            "version": "[8.0.5, )"
           },
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
             "target": "Package",
-            "version": "[8.0.4, )"
+            "version": "[8.0.5, )"
           },
           "Microsoft.EntityFrameworkCore.Relational": {
             "target": "Package",
-            "version": "[8.0.4, )"
+            "version": "[8.0.5, )"
           },
           "Microsoft.EntityFrameworkCore.Tools": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
             "target": "Package",
-            "version": "[8.0.4, )"
+            "version": "[8.0.5, )"
           },
           "Npgsql.EntityFrameworkCore.PostgreSQL": {
             "target": "Package",
-            "version": "[8.0.2, )"
+            "version": "[8.0.4, )"
+          },
+          "Swashbuckle.AspNetCore": {
+            "target": "Package",
+            "version": "[6.6.1, )"
+          },
+          "Swashbuckle.AspNetCore.Swagger": {
+            "target": "Package",
+            "version": "[6.6.1, )"
+          },
+          "Swashbuckle.AspNetCore.SwaggerGen": {
+            "target": "Package",
+            "version": "[6.6.1, )"
+          },
+          "Swashbuckle.AspNetCore.SwaggerUI": {
+            "target": "Package",
+            "version": "[6.6.1, )"
           }
         },
         "imports": [
@@ -2934,7 +3147,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

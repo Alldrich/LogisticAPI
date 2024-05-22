@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Server.Kestrel.Core;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.OpenApi;
 
 var builder = WebApplication.CreateBuilder(args);
 var connectionString =
@@ -15,11 +16,13 @@ var connectionString =
     $" Password={Environment.GetEnvironmentVariable("PASSWORD")};" +
     $" SearchPath={Environment.GetEnvironmentVariable("SEARCHPATH")};"
 );
+
 builder.Services.AddDbContext<LogisticcompanyContext>(options =>
     {
         options.UseNpgsql(connectionString);
     }
 );
+
 builder.Services.AddAuthorization();
 builder.Services.AddIdentityApiEndpoints<IdentityUser>()
     .AddEntityFrameworkStores<LogisticcompanyContext>();
